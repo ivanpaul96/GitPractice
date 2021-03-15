@@ -21,5 +21,14 @@ namespace DSRPrac.Controllers
             var result=usersManager.Add(users);
             return Json(result, JsonRequestBehavior.AllowGet);
         }
+
+        public void Test()
+        {
+
+        }
+        public void Test1()
+        {
+
+        }
     }
 }
